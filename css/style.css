@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background: #264e5a;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+ul{
+    text-align: left;
+    width: max-content;
+    margin: 10px auto;
+}
+
+input{
+    border: 1px solid #264e5a;
+}
+
+.container{
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 7px 0px #000;
+}
+
+.sub-container{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.qnt-caracteres{
+    padding: 0px 5px;
+}
+
+.senha-gerada{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button{
+    margin-bottom: 10px;
+    position: relative;
+    font-weight: 700;
+    background: #356d7e;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 0 0 #264e5a, 0 0 3px 0 rgb(0 0 0 / 40%);
+    box-shadow: 0 3px 0 0 #264e5a, 0 0 3px 0 rgb(0 0 0 / 40%);
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+button:active{
+    background: #264e5a;
+    -webkit-box-shadow: 0 -1px 0 0 #172f36, 0 1px 0 0 #172f36;
+    box-shadow: 0 -1px 0 0 #172f36, 0 1px 0 0 #172f36;
+    top: 2px;
+}
+
+.senha{
+    font-weight: 600;
+    color: #356d7e;
+    font-size: 20px;
+}
+
+input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -3px;
+    position: relative;
+    background-color: #356d7e;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
